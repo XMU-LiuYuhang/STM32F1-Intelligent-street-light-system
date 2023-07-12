@@ -1,0 +1,155 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: yuhang liu, XIamen University, LIC=KRMW3-ATH2W-BSSYX-HQTXY-04QU9-5CSGQ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+D:\Keilwork\2，标准例程-库函数版本\实验0-1 Template工程模板-新建工程章节使用\USER\Template.uvprojx
+Project File Date:  06/08/2023
+
+<h2>Output:</h2>
+Build target 'Template'
+compiling menu.c...
+..\CODE\menu.h(9): warning:  #1295-D: Deprecated declaration ChangeMode - give arg types
+  void ChangeMode();
+..\CODE\menu.h(10): warning:  #1295-D: Deprecated declaration DrawMenu - give arg types
+  void DrawMenu();
+..\CODE\menu.h(11): warning:  #1295-D: Deprecated declaration DrawTimeMenu - give arg types
+  void DrawTimeMenu();
+..\CODE\menu.h(12): warning:  #1295-D: Deprecated declaration DrawLightMenu - give arg types
+  void DrawLightMenu();
+..\CODE\menu.h(13): warning:  #1295-D: Deprecated declaration DrawManualMenu - give arg types
+  void DrawManualMenu();
+..\CODE\menu.h(17): warning:  #1295-D: Deprecated declaration DrawSeasonMenu - give arg types
+  void DrawSeasonMenu();
+..\CODE\menu.h(18): warning:  #1295-D: Deprecated declaration SetRun - give arg types
+  void SetRun();
+..\CODE\menu.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif // _MENU_H_
+..\CODE\headfile.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\CODE\time.h(6): warning:  #1295-D: Deprecated declaration Time_Init - give arg types
+  void Time_Init();
+..\CODE\time.h(8): warning:  #1295-D: Deprecated declaration Get_hour - give arg types
+  u8 Get_hour();
+..\CODE\time.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif /* _TIME_H_ */
+..\CODE\press.h(20): warning:  #1295-D: Deprecated declaration flash_change - give arg types
+  void flash_change();
+..\CODE\press.h(21): warning:  #1295-D: Deprecated declaration flash_init - give arg types
+  void flash_init();
+..\CODE\press.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\CODE\light.h(22): warning:  #260-D: explicit type is missing ("int" assumed)
+  extern light_flag;//路灯开关标志位 0为关；1为开
+..\CODE\light.h(24): warning:  #1295-D: Deprecated declaration Show_light - give arg types
+  void Show_light();
+..\CODE\light.h(25): warning:  #1295-D: Deprecated declaration Show_light_value - give arg types
+  void Show_light_value();
+..\CODE\light.h(26): warning:  #1295-D: Deprecated declaration Control_time_light - give arg types
+  void Control_time_light();
+..\CODE\light.h(27): warning:  #1295-D: Deprecated declaration Control_light_light - give arg types
+  void Control_light_light();
+..\CODE\light.h(28): warning:  #1295-D: Deprecated declaration Light_up - give arg types
+  void Light_up();
+..\CODE\light.h(29): warning:  #1295-D: Deprecated declaration Light_down - give arg types
+  void Light_down();
+..\CODE\light.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif /* _LIGHT_H_ */
+..\CODE\temp.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif /* _TEMP_H_ */
+..\CODE\headfile.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\CODE\menu.c(191): warning:  #1-D: last line of file ends without a newline
+  }
+..\CODE\menu.c: 26 warnings, 0 errors
+compiling press.c...
+..\CODE\menu.h(9): warning:  #1295-D: Deprecated declaration ChangeMode - give arg types
+  void ChangeMode();
+..\CODE\menu.h(10): warning:  #1295-D: Deprecated declaration DrawMenu - give arg types
+  void DrawMenu();
+..\CODE\menu.h(11): warning:  #1295-D: Deprecated declaration DrawTimeMenu - give arg types
+  void DrawTimeMenu();
+..\CODE\menu.h(12): warning:  #1295-D: Deprecated declaration DrawLightMenu - give arg types
+  void DrawLightMenu();
+..\CODE\menu.h(13): warning:  #1295-D: Deprecated declaration DrawManualMenu - give arg types
+  void DrawManualMenu();
+..\CODE\menu.h(17): warning:  #1295-D: Deprecated declaration DrawSeasonMenu - give arg types
+  void DrawSeasonMenu();
+..\CODE\menu.h(18): warning:  #1295-D: Deprecated declaration SetRun - give arg types
+  void SetRun();
+..\CODE\menu.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif // _MENU_H_
+..\CODE\headfile.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\CODE\time.h(6): warning:  #1295-D: Deprecated declaration Time_Init - give arg types
+  void Time_Init();
+..\CODE\time.h(8): warning:  #1295-D: Deprecated declaration Get_hour - give arg types
+  u8 Get_hour();
+..\CODE\time.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif /* _TIME_H_ */
+..\CODE\press.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\CODE\light.h(22): warning:  #260-D: explicit type is missing ("int" assumed)
+  extern light_flag;//路灯开关标志位 0为关；1为开
+..\CODE\light.h(24): warning:  #1295-D: Deprecated declaration Show_light - give arg types
+  void Show_light();
+..\CODE\light.h(25): warning:  #1295-D: Deprecated declaration Show_light_value - give arg types
+  void Show_light_value();
+..\CODE\light.h(26): warning:  #1295-D: Deprecated declaration Control_time_light - give arg types
+  void Control_time_light();
+..\CODE\light.h(27): warning:  #1295-D: Deprecated declaration Control_light_light - give arg types
+  void Control_light_light();
+..\CODE\light.h(28): warning:  #1295-D: Deprecated declaration Light_up - give arg types
+  void Light_up();
+..\CODE\light.h(29): warning:  #1295-D: Deprecated declaration Light_down - give arg types
+  void Light_down();
+..\CODE\light.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif /* _LIGHT_H_ */
+..\CODE\temp.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif /* _TEMP_H_ */
+..\CODE\headfile.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\CODE\press.h(20): warning:  #1295-D: Deprecated declaration flash_change - give arg types
+  void flash_change();
+..\CODE\press.h(21): warning:  #1295-D: Deprecated declaration flash_init - give arg types
+  void flash_init();
+..\CODE\press.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\CODE\press.c(300): warning:  #177-D: variable "i" was declared but never referenced
+        int i;
+..\CODE\press.c(340): warning:  #1-D: last line of file ends without a newline
+  }
+..\CODE\press.c(325): warning:  #177-D: variable "i" was declared but never referenced
+        int i = 0;
+..\CODE\press.c: 29 warnings, 0 errors
+linking...
+Program Size: Code=45310 RO-data=6822 RW-data=208 ZI-data=3976  
+FromELF: creating hex file...
+"..\OBJ\Template.axf" - 0 Error(s), 55 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  D:\Keilwork\2，标准例程-库函数版本\实验0-1 Template工程模板-新建工程章节使用\USER\RTE
+  D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
